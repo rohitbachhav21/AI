@@ -123,7 +123,7 @@ export default function Lightning() {
                   </span>
                 </div>
               )}
-              <div className="md:min-h-[512px] max-w-fit">
+              <div className="w-96 h-96">
                 {image && (
                   <img id="imageDisplay" src={image} alt="Dynamic Image" />
                 )}
@@ -131,24 +131,27 @@ export default function Lightning() {
             </div>
           </div>
         </div>
-        <div className="container flex flex-col items-center justify-center my-4">
-          <p className="text-sm text-base-content/70 py-4 text-center text-neutral-400">
-            This playground is hosted on{" "}
-            <strong>
-              <a href="https://fal.ai" className="underline" target="_blank">
-                fal.ai
-              </a>
-            </strong>{" "}
-            and is for demonstration purposes only.
-          </p>
-          <div className="flex flex-row items-center space-x-2">
-            <span className="text-xs font-mono">powered by</span>
-            <Link href="https://fal.ai" target="_blank">
-              <ModelIcon />
-            </Link>
-          </div>
-        </div>
+        
       </div>
     </main>
   );
 }
+
+
+// <div className="container flex flex-col items-center justify-center my-4">
+//           <p className="text-sm text-base-content/70 py-4 text-center text-neutral-400">
+//             This playground is hosted on{" "}
+//             <strong>
+//               <a href="https://fal.ai" className="underline" target="_blank">
+//                 fal.ai
+//               </a>
+//             </strong>{" "}
+//             and is for demonstration purposes only.
+//           </p>
+//           <div className="flex flex-row items-center space-x-2">
+//             <span className="text-xs font-mono">powered by</span>
+//             <Link href="https://fal.ai" target="_blank">
+//               <ModelIcon />
+//             </Link>
+//           </div>
+//         </div>
